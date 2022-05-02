@@ -1,0 +1,92 @@
+/* section {
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    height: 80px;
+}
+
+/* section:hover {
+    transition: all 2s ease-out;
+} */
+
+/* div {
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    transition: width 3s;
+
+}
+
+div:hover {
+    width: 100%;
+}
+
+/* Level1_2 */
+
+/* .two {
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.two>div {
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    position: relative;
+    left: 3px;
+    transition: left 3s;
+}
+
+.two>div:nth-of-type(2) {
+    background-color: lime;
+    transition-delay: 1s;
+}
+
+.two:hover>div {
+    left: 90%; 
+}*/
+
+
+/* Level2_1 */
+
+
+
+.three {
+    height: 800px;
+    width: 800px;
+    background: lightgray;
+}
+
+.transition {
+    padding-top: 25%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.transition:hover .discover {
+    bottom: 0%
+}
+
+.discover {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 0%;
+    bottom: -100%;
+    transition: bottom 2s ease;
+}
+
+.discover h2 {
+    padding-top: 47%;
+}
